@@ -1,0 +1,35 @@
+{
+   "action": {
+      "default_icon": "img/favicon.png",
+      "default_popup": "src/popup/popup.html",
+      "default_title": "AudD"
+   },
+   "author": "app@audd.io",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "js": [ "src/content.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "host_permissions": [ "https://api.audd.io/", "https://www.googleapis.com/" ],
+   "icons": {
+      "128": "img/favicon-128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsSWFRFBrmQRG4G/0qbkTzyCGNYeUWKmVIzge6jP4knjt/IqvRwmBpnwbqQS8JaMJTidVc1imuyYQTho7Fu4juGqKCeo6MFXAW/M2powbQ3qbVm698UyPQ4OdZApL2asFboYdpzzBtPyM+mlAV9rey/5U0tpTFe+B6lR6J3Zbg2kJxCKwpmWSal8UK4FPUjQPPSzJ7fIkHv/A5Fat1RbaGZSUo5WL9q3ls3qnTPSilt400865ZINVIPeAIFVyYNKTm3EFMsnNMrzjll14c84tIR4cZ9OpxnlkcJPXIOFZGZUBKJz0jC4B4HaJTam4xEiUFqj00PQULuoW36qjW0rw7wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "oauth2": {
+      "client_id": "875741845768-1jga752cov9r774giitn0hbeom6hkh19.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/chromewebstore.readonly", "https://www.googleapis.com/auth/userinfo.profile" ]
+   },
+   "permissions": [ "identity", "identity.email", "storage", "unlimitedStorage", "background", "activeTab", "tabCapture", "notifications" ],
+   "short_name": "AudD",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.2.2"
+}

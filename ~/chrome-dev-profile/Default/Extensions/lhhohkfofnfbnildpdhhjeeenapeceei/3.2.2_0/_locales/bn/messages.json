@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "ইতিহাসে সংরক্ষিত"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "আপনার ব্রাউজারে যেকোন ওয়েবসাইট থেকে যেকোনো সঙ্গীত চিনুন"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "AudD® সঙ্গীত স্বীকৃতি"
+   },
+   "clearHistoryInit": {
+      "message": "বিজ্ঞপ্তিতে কর্ম নিশ্চিত করুন"
+   },
+   "confirm": {
+      "message": "নিশ্চিত করুন"
+   },
+   "confirmQuestion": {
+      "message": "এই কর্ম অপরিবর্তনীয়. আপনি কি নিশ্চিত আপনি ইতিহাস সাফ করতে চান?"
+   },
+   "copiedSuccessfully": {
+      "message": "অনুলিপি করা হয়েছে!"
+   },
+   "goTo": {
+      "message": "যাও"
+   },
+   "history": {
+      "message": "ইতিহাস"
+   },
+   "identifiedEarlierText": {
+      "message": "আগে শনাক্ত হয়েছে"
+   },
+   "lyrics": {
+      "message": "গানের কথা"
+   },
+   "needAuth": {
+      "message": "এই ওয়েবসাইটে AudD ব্যবহার করতে, আপনাকে লগইন করতে হবে"
+   },
+   "no": {
+      "message": "না"
+   },
+   "noAudioOnTab": {
+      "message": "বর্তমান ট্যাবে কোন অডিও নেই"
+   },
+   "noLyrics": {
+      "message": "এই গানের জন্য কোন লিরিক খুঁজে পাওয়া যায়নি"
+   },
+   "noMatchesText": {
+      "message": "দুঃখিত, আমরা কোনো ম্যাচ পেতে পারিনি"
+   },
+   "notInvoked": {
+      "message": "বর্তমান পৃষ্ঠার জন্য এক্সটেনশনটি আহ্বান করা হয়নি। Chrome পৃষ্ঠাগুলি ক্যাপচার করা যাবে না৷ একটি ট্যাবে ক্লিক করুন এবং এক্সটেনশনটি পুনরায় চালু করুন।"
+   },
+   "onlyPaidWorksHere": {
+      "message": "দুঃখিত, শুধুমাত্র প্রদত্ত সংস্করণ এই ওয়েবসাইটে কাজ করে. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">এখানে টোকেন পান\u003C/a> এবং সেটিংসে এটি পাস করুন বা আমাদের \u003Ca href=\"https://audd.io\" target=\"_blank\">API\u003C/a> দিয়ে আপনার কাজ স্বয়ংক্রিয় করার কথা বিবেচনা করুন৷."
+   },
+   "playsAt": {
+      "message": "এ খেলে"
+   },
+   "selectOneTab": {
+      "message": "একটি ট্যাব নির্বাচন করুন"
+   },
+   "settings": {
+      "message": "সেটিংস"
+   },
+   "settingsSaved": {
+      "message": "সেটিংস সফলভাবে সংরক্ষণ করা হয়েছে৷"
+   },
+   "signIn": {
+      "message": "অনুগ্রহ করে, Google Chrome-এ \u003Ca url=\"chrome://chrome-signin/\" href=\"#\">আপনার Google অ্যাকাউন্ট দিয়ে লগইন করুন\u003C/a>"
+   },
+   "trialEnded": {
+      "message": "আপনার ট্রায়াল শেষ হয়েছে. শুধুমাত্র সম্পূর্ণ সংস্করণ এই ওয়েবসাইটে কাজ করে. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">সাবস্ক্রাইব করুন\u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "আবার চেষ্টা করুন"
+   },
+   "webstoreListingDescription": {
+      "message": "AudD এক্সটেনশন ইনস্টল করুন এবং বর্তমান ট্যাবে বাজানো গান সনাক্ত করতে এর আইকনে ক্লিক করুন।\nএটি কিভাবে কাজ করে তা দেখতে উপরের ভিডিওটি দেখুন।\n\nAudD এক্সটেনশন:\n- আপনার ব্রাউজারে বাজানো সঙ্গীত সনাক্ত করে;\n- এর সঙ্গীত স্বীকৃতি প্রযুক্তি ব্যবহার করে 75 মিলিয়নেরও বেশি গান সহ AudD ডাটাবেসে সঙ্গীত খুঁজে পায়;\n- চিহ্নিত গানের জন্য গান দেখায়;\n- অ্যাপল মিউজিক, স্পটিফাই, ডিজার, ইউটিউব মিউজিক-এ গান শোনার লিঙ্ক দেখায়;\n- ব্রাউজার থেকে শব্দ বাজানো হলে স্বীকৃত গানের সঠিক মুহূর্তটি প্রদর্শন করে।\n\nসঙ্গীত স্বীকৃতি API: https://audd.io\nউত্স কোড: https://github.com/AudDMusic/chrome-extension\n\nAudD® সঙ্গীত স্বীকৃতি API দ্বারা চালিত এক্সটেনশন\n\nএরিক স্টার্ক, মিচেল কোসোরিস এবং ইভান কাসাটকিনের সহায়তায় AudD.io টিম দ্বারা তৈরি এবং ডিজাইন করা হয়েছে৷"
+   },
+   "yes": {
+      "message": "হ্যাঁ"
+   }
+}

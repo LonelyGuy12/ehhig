@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "ઇતિહાસમાં સાચવેલ"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "તમારા બ્રાઉઝરમાં કોઈપણ વેબસાઇટ પરથી કોઈપણ સંગીતને ઓળખો"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "AudD® સંગીત ઓળખ"
+   },
+   "clearHistoryInit": {
+      "message": "સૂચનાઓમાં ક્રિયાની પુષ્ટિ કરો"
+   },
+   "confirm": {
+      "message": "પુષ્ટિ કરો"
+   },
+   "confirmQuestion": {
+      "message": "આ ક્રિયા બદલી ન શકાય તેવી છે. શું તમે ખરેખર ઇતિહાસ સાફ કરવા માંગો છો?"
+   },
+   "copiedSuccessfully": {
+      "message": "નકલ કરી!"
+   },
+   "goTo": {
+      "message": "પર જાઓ"
+   },
+   "history": {
+      "message": "ઇતિહાસ"
+   },
+   "identifiedEarlierText": {
+      "message": "અગાઉ ઓળખાઈ"
+   },
+   "lyrics": {
+      "message": "ગીતો"
+   },
+   "needAuth": {
+      "message": "આ વેબસાઇટ પર AudD નો ઉપયોગ કરવા માટે, તમારે લોગિન કરવાની જરૂર છે"
+   },
+   "no": {
+      "message": "ના"
+   },
+   "noAudioOnTab": {
+      "message": "વર્તમાન ટેબ પર કોઈ ઓડિયો નથી"
+   },
+   "noLyrics": {
+      "message": "આ ગીત માટે કોઈ ગીતો શોધી શક્યા નથી"
+   },
+   "noMatchesText": {
+      "message": "માફ કરશો, અમે કોઈ મેળ મેળવી શક્યા નથી"
+   },
+   "notInvoked": {
+      "message": "વર્તમાન પૃષ્ઠ માટે એક્સ્ટેંશનની વિનંતી કરવામાં આવી નથી. Chrome પૃષ્ઠો કેપ્ચર કરી શકાતા નથી. એક ટેબ પર ક્લિક કરો અને એક્સ્ટેંશન ફરીથી લોંચ કરો."
+   },
+   "onlyPaidWorksHere": {
+      "message": "માફ કરશો, આ વેબસાઇટ પર માત્ર પેઇડ વર્ઝન જ કામ કરે છે. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">અહીં ટોકન મેળવો\u003C/a> અને તેને સેટિંગ્સમાં પસાર કરો અથવા અમારા \u003Ca href=\"https://audd.io\" target=\"_blank\">API\u003C/a> સાથે તમારા કાર્યને સ્વચાલિત કરવાનું વિચારો."
+   },
+   "playsAt": {
+      "message": "ખાતે રમે છે"
+   },
+   "selectOneTab": {
+      "message": "કૃપા કરીને એક ટેબ પસંદ કરો"
+   },
+   "settings": {
+      "message": "સેટિંગ્સ"
+   },
+   "settingsSaved": {
+      "message": "સેટિંગ્સ સફળતાપૂર્વક સાચવી"
+   },
+   "signIn": {
+      "message": "કૃપા કરીને, Google Chrome માં \u003Ca url=\"chrome://chrome-signin/\" href=\"#\">તમારા Google એકાઉન્ટથી \u003C/a> લોગિન કરો"
+   },
+   "trialEnded": {
+      "message": "તમારી અજમાયશ સમાપ્ત થઈ ગઈ છે. આ વેબસાઇટ પર ફક્ત સંપૂર્ણ સંસ્કરણ જ કાર્ય કરે છે. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">સબ્સ્ક્રાઇબ કરો\u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "ફરીથી પ્રયત્ન કરો"
+   },
+   "webstoreListingDescription": {
+      "message": "AudD એક્સ્ટેંશન ઇન્સ્ટોલ કરો અને વર્તમાન ટેબ પર ચાલી રહેલા ગીતને ઓળખવા માટે તેના આઇકન પર ક્લિક કરો.\nતે કેવી રીતે કાર્ય કરે છે તે જોવા માટે ઉપરની વિડિઓ જુઓ.\n\nAudD એક્સ્ટેંશન:\n- તમારા બ્રાઉઝરમાં વગાડતા સંગીતને ઓળખે છે;\n- તેની સંગીત ઓળખ તકનીકનો ઉપયોગ કરીને 75 મિલિયનથી વધુ ગીતો સાથે AudD ડેટાબેઝમાં સંગીત શોધે છે;\n- ઓળખાયેલ ગીતો માટે ગીતો બતાવે છે;\n- Apple Music, Spotify, Deezer, YouTube Music પર ગીતો સાંભળવા માટેની લિંક્સ બતાવે છે;\n- જ્યારે બ્રાઉઝરમાંથી અવાજ વગાડવામાં આવે ત્યારે માન્ય ગીતમાં ચોક્કસ ક્ષણ દર્શાવે છે.\n\nસંગીત ઓળખ API: https://audd.io\nસ્રોત કોડ: https://github.com/AudDMusic/chrome-extension\n\nAudD® સંગીત ઓળખ API દ્વારા સંચાલિત એક્સ્ટેંશન\n\nએરિક સ્ટાર્ક, મિશેલ કોસોરીસ અને ઇવાન કાસાટકીનની મદદથી AudD.io ટીમ દ્વારા બનાવવામાં અને ડિઝાઇન કરવામાં આવી છે."
+   },
+   "yes": {
+      "message": "હા"
+   }
+}

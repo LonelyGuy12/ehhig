@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "Saved to the History"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Recognize any music from any website in your browser"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "AudD® Music Recognition"
+   },
+   "clearHistoryInit": {
+      "message": "Confirm the action in the notifications"
+   },
+   "confirm": {
+      "message": "Confirm"
+   },
+   "confirmQuestion": {
+      "message": "This action is irreversible. Are you sure you want to clear the history?"
+   },
+   "copiedSuccessfully": {
+      "message": "Copied!"
+   },
+   "goTo": {
+      "message": "Go to"
+   },
+   "history": {
+      "message": "History"
+   },
+   "identifiedEarlierText": {
+      "message": "Identified earlier"
+   },
+   "lyrics": {
+      "message": "Lyrics"
+   },
+   "needAuth": {
+      "message": "To use AudD on this website, you need to login"
+   },
+   "no": {
+      "message": "No"
+   },
+   "noAudioOnTab": {
+      "message": "No audio on the current tab"
+   },
+   "noLyrics": {
+      "message": "Couldn't find any lyrics for this song"
+   },
+   "noMatchesText": {
+      "message": "Sorry, we couldn't get any matches"
+   },
+   "notInvoked": {
+      "message": "The extension has not been invoked for the current page. Chrome pages cannot be captured. Click on a tab and relaunch the extension."
+   },
+   "onlyPaidWorksHere": {
+      "message": "Sorry, only the paid version works on this website. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Get token here\u003C/a> and past it in the settings or consider automating your work with our \u003Ca href=\"https://audd.io\" target=\"_blank\">API\u003C/a>."
+   },
+   "playsAt": {
+      "message": "plays at"
+   },
+   "selectOneTab": {
+      "message": "Please select one tab"
+   },
+   "settings": {
+      "message": "Settings"
+   },
+   "settingsSaved": {
+      "message": "Successfully saved the settings"
+   },
+   "signIn": {
+      "message": "Please, \u003Ca url=\"chrome://chrome-signin/\" href=\"#\">login with your Google account\u003C/a> in Google Chrome"
+   },
+   "trialEnded": {
+      "message": "Your trial has ended. Only the full version works on this website. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Subscribe\u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "try again"
+   },
+   "webstoreListingDescription": {
+      "message": "Install the AudD extension and click on its icon to identify the song playing on the current tab.\nWatch the video above to see how it works.\n\nAudD extension:\n- Recognizes the music playing in your browser;\n- Finds music in the AudD database with more than 75 million songs using its music recognition technology;\n- Shows lyrics for identified songs;\n- Shows links to listen to the songs on Apple Music, Spotify, Deezer, YouTube Music;\n- Displays the exact moment in the recognized song when the sound from the browser is played.\n\nMusic Recognition API: https://audd.io\nSource code: https://github.com/AudDMusic/chrome-extension\n\nExtension Powered By AudD® Music recognition API\n\nCreated and designed by the AudD.io team with help from Eric Stark, Mitchell Kossoris, and Ivan Kasatkin."
+   },
+   "yes": {
+      "message": "Yes"
+   }
+}

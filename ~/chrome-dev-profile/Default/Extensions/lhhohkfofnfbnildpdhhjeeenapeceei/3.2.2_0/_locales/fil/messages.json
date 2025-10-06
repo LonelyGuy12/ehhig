@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "Naka-save sa Kasaysayan"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Kilalanin ang anumang musika mula sa anumang website sa iyong browser"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "AudD® Pagkilala sa Musika"
+   },
+   "clearHistoryInit": {
+      "message": "Kumpirmahin ang pagkilos sa mga notification"
+   },
+   "confirm": {
+      "message": "Kumpirmahin"
+   },
+   "confirmQuestion": {
+      "message": "Ang pagkilos na ito ay hindi maibabalik. Sigurado ka bang gusto mong i-clear ang history?"
+   },
+   "copiedSuccessfully": {
+      "message": "Kinopya!"
+   },
+   "goTo": {
+      "message": "Pumunta sa"
+   },
+   "history": {
+      "message": "Kasaysayan"
+   },
+   "identifiedEarlierText": {
+      "message": "Nakilala kanina"
+   },
+   "lyrics": {
+      "message": "Lyrics"
+   },
+   "needAuth": {
+      "message": "Upang magamit ang AudD sa website na ito, kailangan mong mag-login"
+   },
+   "no": {
+      "message": "Hindi"
+   },
+   "noAudioOnTab": {
+      "message": "Walang audio sa kasalukuyang tab"
+   },
+   "noLyrics": {
+      "message": "Hindi makahanap ng anumang lyrics para sa kantang ito"
+   },
+   "noMatchesText": {
+      "message": "Paumanhin, hindi kami makakuha ng anumang mga tugma"
+   },
+   "notInvoked": {
+      "message": "Hindi na-invoke ang extension para sa kasalukuyang page. Hindi maaaring makuha ang mga pahina ng Chrome. Mag-click sa isang tab at muling ilunsad ang extension."
+   },
+   "onlyPaidWorksHere": {
+      "message": "Paumanhin, ang bayad na bersyon lamang ang gumagana sa website na ito. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Kumuha ng token dito\u003C/a> at ipasa ito sa mga setting o isaalang-alang ang pag-automate ng iyong trabaho gamit ang aming \u003Ca href=\"https://audd.io\" target=\"_blank\">API\u003C/a>."
+   },
+   "playsAt": {
+      "message": "naglalaro sa"
+   },
+   "selectOneTab": {
+      "message": "Mangyaring pumili ng isang tab"
+   },
+   "settings": {
+      "message": "Mga setting"
+   },
+   "settingsSaved": {
+      "message": "Matagumpay na na-save ang mga setting"
+   },
+   "signIn": {
+      "message": "Mangyaring, \u003Ca url=\"chrome://chrome-signin/\" href=\"#\">mag-login gamit ang iyong Google account\u003C/a> sa Google Chrome"
+   },
+   "trialEnded": {
+      "message": "Natapos na ang iyong pagsubok. Tanging ang buong bersyon ang gumagana sa website na ito. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Mag-subscribe\u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "subukan ulit"
+   },
+   "webstoreListingDescription": {
+      "message": "I-install ang extension ng AudD at mag-click sa icon nito para matukoy ang nagpe-play na kanta sa kasalukuyang tab.\nPanoorin ang video sa itaas upang makita kung paano ito gumagana.\n\nAudD extension:\n- Kinikilala ang musikang tumutugtog sa iyong browser;\n- Naghahanap ng musika sa AudD database na may higit sa 75 milyong mga kanta gamit ang teknolohiya ng pagkilala ng musika nito;\n- Nagpapakita ng mga lyrics para sa mga natukoy na kanta;\n- Nagpapakita ng mga link upang makinig sa mga kanta sa Apple Music, Spotify, Deezer, YouTube Music;\n- Ipinapakita ang eksaktong sandali sa kinikilalang kanta kapag ang tunog mula sa browser ay nilalaro.\n\nMusic Recognition API: https://audd.io\nSource code: https://github.com/AudDMusic/chrome-extension\n\nExtension na Pinapatakbo ng AudD® Music recognition API\n\nGinawa at idinisenyo ng AudD.io team sa tulong nina Eric Stark, Mitchell Kossoris, at Ivan Kasatkin."
+   },
+   "yes": {
+      "message": "Oo"
+   }
+}

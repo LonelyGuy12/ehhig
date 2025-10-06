@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "Uložené do histórie"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Rozpoznajte akúkoľvek hudbu z ľubovoľnej webovej stránky vo svojom prehliadači"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Rozpoznávanie hudby AudD®"
+   },
+   "clearHistoryInit": {
+      "message": "Potvrďte akciu v upozorneniach"
+   },
+   "confirm": {
+      "message": "Potvrďte"
+   },
+   "confirmQuestion": {
+      "message": "Táto akcia je nezvratná. Naozaj chcete vymazať históriu?"
+   },
+   "copiedSuccessfully": {
+      "message": "Skopírované!"
+   },
+   "goTo": {
+      "message": "Ísť do"
+   },
+   "history": {
+      "message": "História"
+   },
+   "identifiedEarlierText": {
+      "message": "Identifikované skôr"
+   },
+   "lyrics": {
+      "message": "Texty piesní"
+   },
+   "needAuth": {
+      "message": "Ak chcete používať AudD na tejto webovej stránke, musíte sa prihlásiť"
+   },
+   "no": {
+      "message": "Nie"
+   },
+   "noAudioOnTab": {
+      "message": "Na aktuálnej karte nie je žiadny zvuk"
+   },
+   "noLyrics": {
+      "message": "Pre túto pieseň sa nepodarilo nájsť žiadny text"
+   },
+   "noMatchesText": {
+      "message": "Ľutujeme, nepodarilo sa nám získať žiadne zhody"
+   },
+   "notInvoked": {
+      "message": "Rozšírenie nebolo vyvolané pre aktuálnu stránku. Stránky Chrome nie je možné zachytiť. Kliknite na kartu a znova spustite rozšírenie."
+   },
+   "onlyPaidWorksHere": {
+      "message": "Ľutujeme, na tomto webe funguje iba platená verzia. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Získajte token tu\u003C/a> a vložte ho do nastavení alebo zvážte automatizáciu práce pomocou nášho \u003Ca href=\"https://audd.io\" target=\"_blank\">API\u003C/a>."
+   },
+   "playsAt": {
+      "message": "hrá na"
+   },
+   "selectOneTab": {
+      "message": "Vyberte jednu kartu"
+   },
+   "settings": {
+      "message": "nastavenie"
+   },
+   "settingsSaved": {
+      "message": "Nastavenia boli úspešne uložené"
+   },
+   "signIn": {
+      "message": "\u003Ca url=\"chrome://chrome-signin/\" href=\"#\">Prihláste sa pomocou svojho účtu Google\u003C/a> v prehliadači Google Chrome"
+   },
+   "trialEnded": {
+      "message": "Vaša skúšobná verzia sa skončila. Na tejto stránke funguje iba plná verzia. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Prihlásiť sa\u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "skúste to znova"
+   },
+   "webstoreListingDescription": {
+      "message": "Nainštalujte rozšírenie AudD a kliknutím na jeho ikonu identifikujte skladbu prehrávanú na aktuálnej karte.\nPozrite si video vyššie, aby ste videli, ako to funguje.\n\nRozšírenie AudD:\n- Rozpozná hudbu prehrávanú vo vašom prehliadači;\n- Nájde hudbu v databáze AudD s viac ako 75 miliónmi skladieb pomocou technológie rozpoznávania hudby;\n- Zobrazuje texty pre identifikované piesne;\n- Zobrazuje odkazy na počúvanie skladieb na Apple Music, Spotify, Deezer, YouTube Music;\n- Zobrazuje presný moment v rozpoznanej skladbe pri prehrávaní zvuku z prehliadača.\n\nRozhranie API na rozpoznávanie hudby: https://audd.io\nZdrojový kód: https://github.com/AudDMusic/chrome-extension\n\nRozšírenie poháňané rozhraním API na rozpoznávanie hudby AudD®\n\nVytvoril a navrhol tím AudD.io s pomocou Erica Starka, Mitchella Kossorisa a Ivana Kasatkina."
+   },
+   "yes": {
+      "message": "Áno"
+   }
+}

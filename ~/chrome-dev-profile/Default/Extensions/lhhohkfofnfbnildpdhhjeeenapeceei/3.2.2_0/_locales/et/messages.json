@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "Salvestatud ajalukku"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Tuvastage oma brauseris mis tahes muusikat mis tahes veebisaidilt"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "AudD® muusikatuvastus"
+   },
+   "clearHistoryInit": {
+      "message": "Kinnitage toiming teatistes"
+   },
+   "confirm": {
+      "message": "Kinnita"
+   },
+   "confirmQuestion": {
+      "message": "See toiming on pöördumatu. Kas soovite kindlasti ajaloo kustutada?"
+   },
+   "copiedSuccessfully": {
+      "message": "Kopeeritud!"
+   },
+   "goTo": {
+      "message": "Minema"
+   },
+   "history": {
+      "message": "Ajalugu"
+   },
+   "identifiedEarlierText": {
+      "message": "Varem tuvastatud"
+   },
+   "lyrics": {
+      "message": "Laulusõnad"
+   },
+   "needAuth": {
+      "message": "AudD kasutamiseks sellel veebisaidil peate sisse logima"
+   },
+   "no": {
+      "message": "Ei"
+   },
+   "noAudioOnTab": {
+      "message": "Praegusel vahelehel pole heli"
+   },
+   "noLyrics": {
+      "message": "Selle laulu sõnu ei leitud"
+   },
+   "noMatchesText": {
+      "message": "Kahjuks ei õnnestunud vasteid leida"
+   },
+   "notInvoked": {
+      "message": "Laiendust ei ole praeguse lehe jaoks välja kutsutud. Chrome'i lehti ei saa jäädvustada. Klõpsake vahekaardil ja taaskäivitage laiendus."
+   },
+   "onlyPaidWorksHere": {
+      "message": "Kahjuks töötab sellel veebisaidil ainult tasuline versioon. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Hankige tunnus siit\u003C/a> ja mööduge sellest seadetes või kaaluge oma töö automatiseerimist meie \u003Ca href=\"https://audd.io\" target=\"_blank\">API-ga\u003C/a>."
+   },
+   "playsAt": {
+      "message": "mängib kell"
+   },
+   "selectOneTab": {
+      "message": "Valige üks vahekaart"
+   },
+   "settings": {
+      "message": "Seaded"
+   },
+   "settingsSaved": {
+      "message": "Seadete salvestamine õnnestus"
+   },
+   "signIn": {
+      "message": "Palun \u003Ca url=\"chrome://chrome-signin/\" href=\"#\">logige Google Chrome'is sisse oma Google'i kontoga\u003C/a>"
+   },
+   "trialEnded": {
+      "message": "Teie prooviperiood on lõppenud. Sellel veebisaidil töötab ainult täisversioon. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Telli\u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "proovi uuesti"
+   },
+   "webstoreListingDescription": {
+      "message": "Installige laiendus AudD ja klõpsake selle ikoonil, et tuvastada praegusel vahekaardil esitatav lugu.\nVaadake ülaltoodud videot, et näha, kuidas see töötab.\n\nAudD laiendus:\n- tuvastab teie brauseris mängitava muusika;\n- Otsib oma muusikatuvastustehnoloogia abil AudD andmebaasist enam kui 75 miljoni looga muusikat;\n- Näitab tuvastatud laulude sõnu;\n- Näitab linke, et kuulata lugusid teenuses Apple Music, Spotify, Deezer, YouTube Music;\n- Kuvab tuvastatud loo täpse hetke, mil brauserist pärit heli esitatakse.\n\nMuusikatuvastuse API: https://audd.io\nLähtekood: https://github.com/AudDMusic/chrome-extension\n\nLaiendust toetab AudD® muusikatuvastuse API\n\nLoonud ja kujundanud AudD.io meeskond Eric Starki, Mitchell Kossorise ja Ivan Kasatkini abiga."
+   },
+   "yes": {
+      "message": "Jah"
+   }
+}

@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "נשמר בהיסטוריה"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "זהה כל מוזיקה מכל אתר בדפדפן שלך"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "AudD® זיהוי מוזיקה"
+   },
+   "clearHistoryInit": {
+      "message": "אשר את הפעולה בהתראות"
+   },
+   "confirm": {
+      "message": "לְאַשֵׁר"
+   },
+   "confirmQuestion": {
+      "message": "פעולה זו היא בלתי הפיכה. האם אתה בטוח שברצונך לנקות את ההיסטוריה?"
+   },
+   "copiedSuccessfully": {
+      "message": "מוּעֲתָק!"
+   },
+   "goTo": {
+      "message": "לך ל"
+   },
+   "history": {
+      "message": "הִיסטוֹרִיָה"
+   },
+   "identifiedEarlierText": {
+      "message": "זוהה קודם לכן"
+   },
+   "lyrics": {
+      "message": "מילים"
+   },
+   "needAuth": {
+      "message": "כדי להשתמש ב-AudD באתר זה, עליך להתחבר"
+   },
+   "no": {
+      "message": "לא"
+   },
+   "noAudioOnTab": {
+      "message": "אין שמע בכרטיסייה הנוכחית"
+   },
+   "noLyrics": {
+      "message": "לא הצלחתי למצוא מילים לשיר הזה"
+   },
+   "noMatchesText": {
+      "message": "מצטערים, לא הצלחנו להשיג התאמות"
+   },
+   "notInvoked": {
+      "message": "התוסף לא הופעל עבור הדף הנוכחי. לא ניתן ללכוד דפי Chrome. לחץ על כרטיסייה והפעל מחדש את התוסף."
+   },
+   "onlyPaidWorksHere": {
+      "message": "מצטערים, רק הגרסה בתשלום פועלת באתר זה. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">קבל אסימון כאן\u003C/a> והעבר אותו בהגדרות או שקול להפוך את העבודה שלך לאוטומטית עם \u003Ca href=\"https://audd.io\" target=\"_blank\">API\u003C/a> שלנו."
+   },
+   "playsAt": {
+      "message": "משחק ב"
+   },
+   "selectOneTab": {
+      "message": "אנא בחר כרטיסייה אחת"
+   },
+   "settings": {
+      "message": "הגדרות"
+   },
+   "settingsSaved": {
+      "message": "ההגדרות נשמרו בהצלחה"
+   },
+   "signIn": {
+      "message": "אנא, \u003Ca url=\"chrome://chrome-signin/\" href=\"#\">התחבר עם חשבון Google שלך\u003C/a> ב-Google Chrome"
+   },
+   "trialEnded": {
+      "message": "הניסיון שלך הסתיים. רק הגרסה המלאה פועלת באתר זה. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">הירשם\u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "נסה שוב"
+   },
+   "webstoreListingDescription": {
+      "message": "התקן את התוסף AudD ולחץ על הסמל שלה כדי לזהות את השיר שמתנגן בכרטיסייה הנוכחית.\nצפה בסרטון למעלה כדי לראות איך זה עובד.\n\nסיומת AuD:\n- מזהה את המוזיקה המתנגנת בדפדפן שלך;\n- מוצא מוזיקה במסד הנתונים של AudD עם יותר מ-75 מיליון שירים באמצעות טכנולוגיית זיהוי המוזיקה שלו;\n- מציג מילים לשירים מזוהים;\n- מציג קישורים להאזנה לשירים ב-Apple Music, Spotify, Deezer, YouTube Music;\n- מציג את הרגע המדויק בשיר המזוהה כאשר הצליל מהדפדפן מושמע.\n\nAPI לזיהוי מוזיקה: https://audd.io\nקוד מקור: https://github.com/AudDMusic/chrome-extension\n\nהרחבה המופעלת על ידי AudD® API לזיהוי מוזיקה\n\nנוצר ועוצב על ידי צוות AudD.io בעזרת אריק סטארק, מיטשל קוסוריס ואיבן קסאטקין."
+   },
+   "yes": {
+      "message": "כן"
+   }
+}

@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "Mentve az előzmények közé"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Bármilyen webhelyről származó zenét felismer a böngészőjében"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "AudD® zenefelismerés"
+   },
+   "clearHistoryInit": {
+      "message": "Erősítse meg a műveletet az értesítésekben"
+   },
+   "confirm": {
+      "message": "megerősít"
+   },
+   "confirmQuestion": {
+      "message": "Ez a művelet visszafordíthatatlan. Biztosan törli az előzményeket?"
+   },
+   "copiedSuccessfully": {
+      "message": "Másolva!"
+   },
+   "goTo": {
+      "message": "Menj"
+   },
+   "history": {
+      "message": "Történelem"
+   },
+   "identifiedEarlierText": {
+      "message": "Korábban azonosították"
+   },
+   "lyrics": {
+      "message": "Dalszöveg"
+   },
+   "needAuth": {
+      "message": "Az AudD használatához ezen a webhelyen be kell jelentkeznie"
+   },
+   "no": {
+      "message": "Nem"
+   },
+   "noAudioOnTab": {
+      "message": "Nincs hang az aktuális lapon"
+   },
+   "noLyrics": {
+      "message": "Nem található szöveg ehhez a dalhoz"
+   },
+   "noMatchesText": {
+      "message": "Sajnáljuk, nem tudtunk egyezést szerezni"
+   },
+   "notInvoked": {
+      "message": "A kiterjesztés nem lett meghívva az aktuális oldalhoz. A Chrome-oldalak nem rögzíthetők. Kattintson egy lapra, és indítsa újra a bővítményt."
+   },
+   "onlyPaidWorksHere": {
+      "message": "Sajnos ezen a webhelyen csak a fizetős verzió működik. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Szerezzen be tokent innen\u003C/a>, és szüntesse meg a beállításokban, vagy fontolja meg a munka automatizálását az \u003Ca href=\"https://audd.io\" target=\"_blank\">API\u003C/a> segítségével."
+   },
+   "playsAt": {
+      "message": "helyen játszik"
+   },
+   "selectOneTab": {
+      "message": "Kérjük, válasszon egy lapot"
+   },
+   "settings": {
+      "message": "Beállítások"
+   },
+   "settingsSaved": {
+      "message": "A beállítások sikeresen elmentve"
+   },
+   "signIn": {
+      "message": "Kérjük, \u003Ca url=\"chrome://chrome-signin/\" href=\"#\">jelentkezzen be Google Fiókjával\u003C/a> a Google Chrome-ban"
+   },
+   "trialEnded": {
+      "message": "A próbaidőszak véget ért. Ezen a weboldalon csak a teljes verzió működik. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Feliratkozás\u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "próbáld újra"
+   },
+   "webstoreListingDescription": {
+      "message": "Telepítse az AudD bővítményt, és kattintson az ikonjára az aktuális lapon lejátszott dal azonosításához.\nNézze meg a fenti videót, hogy megtudja, hogyan működik.\n\nAudD kiterjesztés:\n- Felismeri a böngészőben lejátszott zenét;\n- Zenéket talál az AudD adatbázisban több mint 75 millió dallal a zenefelismerő technológia segítségével;\n- Megmutatja az azonosított dalok szövegét;\n- Linkeket jelenít meg a dalok meghallgatásához az Apple Music, Spotify, Deezer, YouTube Music szolgáltatásban;\n- Pontosan azt a pillanatot jeleníti meg a felismert dalban, amikor a böngésző hangját lejátssza.\n\nMusic Recognition API: https://audd.io\nForráskód: https://github.com/AudDMusic/chrome-extension\n\nAz AudD® zenefelismerő API által működtetett bővítmény\n\nAz AudD.io csapata készítette és tervezte Eric Stark, Mitchell Kossoris és Ivan Kasatkin segítségével."
+   },
+   "yes": {
+      "message": "Igen"
+   }
+}

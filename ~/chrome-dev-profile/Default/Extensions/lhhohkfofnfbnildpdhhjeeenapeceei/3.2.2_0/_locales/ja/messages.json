@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "履歴に保存"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "ブラウザであらゆるウェブサイトのあらゆる音楽を認識"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "AudD®音楽認識"
+   },
+   "clearHistoryInit": {
+      "message": "通知でアクションを確認する"
+   },
+   "confirm": {
+      "message": "確認"
+   },
+   "confirmQuestion": {
+      "message": "このアクションは元に戻せません。履歴をクリアしてもよろしいですか？"
+   },
+   "copiedSuccessfully": {
+      "message": "コピーしました！"
+   },
+   "goTo": {
+      "message": "に行く"
+   },
+   "history": {
+      "message": "歴史"
+   },
+   "identifiedEarlierText": {
+      "message": "以前に特定された"
+   },
+   "lyrics": {
+      "message": "歌詞"
+   },
+   "needAuth": {
+      "message": "このウェブサイトでAudDを使用するには、ログインする必要があります"
+   },
+   "no": {
+      "message": "いいえ"
+   },
+   "noAudioOnTab": {
+      "message": "現在のタブに音声がありません"
+   },
+   "noLyrics": {
+      "message": "この曲の歌詞が見つかりませんでした"
+   },
+   "noMatchesText": {
+      "message": "申し訳ありませんが、一致するものが見つかりませんでした"
+   },
+   "notInvoked": {
+      "message": "現在のページに対して拡張機能が呼び出されていません。 Chrome ページをキャプチャできません。タブをクリックして、拡張機能を再起動します。"
+   },
+   "onlyPaidWorksHere": {
+      "message": "申し訳ありませんが、この Web サイトでは有料版のみが機能します。 \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">ここ\u003C/a>でトークンを取得して設定に貼り付けるか、\u003Ca href=\"https://audd.io\" target=\"_blank\">API\u003C/a>で作業を自動化することを検討してください。"
+   },
+   "playsAt": {
+      "message": "で遊ぶ"
+   },
+   "selectOneTab": {
+      "message": "1 つのタブを選択してください"
+   },
+   "settings": {
+      "message": "設定"
+   },
+   "settingsSaved": {
+      "message": "設定を保存しました"
+   },
+   "signIn": {
+      "message": "\u003Ca url=\"chrome://chrome-signin/\" href=\"#\">Google Chrome で \u003C/a> Google アカウントにログインしてください"
+   },
+   "trialEnded": {
+      "message": "トライアルは終了しました。この Web サイトでは完全版のみが機能します。 \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">購読\u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "再試行"
+   },
+   "webstoreListingDescription": {
+      "message": "AudD 拡張機能をインストールし、そのアイコンをクリックして、現在のタブで再生中の曲を特定します。\n上のビデオを見て、その仕組みを確認してください。\n\nAudD 拡張子:\n- ブラウザで再生中の音楽を認識します。\n- 音楽認識技術を使用して、7,500 万曲を超える AudD データベースで音楽を検索します。\n- 特定された曲の歌詞を表示します。\n- Apple Music、Spotify、Deezer、YouTube Music で曲を聴くためのリンクを表示します。\n- ブラウザからのサウンドが再生されると、認識された曲の正確な瞬間が表示されます。\n\n音楽認識 API: https://audd.io\nソースコード: https://github.com/AudDMusic/chrome-extension\n\nAudD® 音楽認識 API を利用した拡張機能\n\nEric Stark、Mitchell Kossoris、Ivan Kasatkin の協力を得て、AudD.io チームによって作成および設計されました。"
+   },
+   "yes": {
+      "message": "はい"
+   }
+}

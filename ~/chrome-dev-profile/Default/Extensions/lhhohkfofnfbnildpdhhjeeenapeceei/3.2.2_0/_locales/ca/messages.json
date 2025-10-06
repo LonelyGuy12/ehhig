@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "Guardat a la Història"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Reconeix qualsevol música de qualsevol lloc web al teu navegador"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Reconeixement de música AudD®"
+   },
+   "clearHistoryInit": {
+      "message": "Confirmeu l'acció a les notificacions"
+   },
+   "confirm": {
+      "message": "Confirmeu"
+   },
+   "confirmQuestion": {
+      "message": "Aquesta acció és irreversible. Esteu segur que voleu esborrar l'historial?"
+   },
+   "copiedSuccessfully": {
+      "message": "Copiat!"
+   },
+   "goTo": {
+      "message": "Anar a"
+   },
+   "history": {
+      "message": "Història"
+   },
+   "identifiedEarlierText": {
+      "message": "Identificat abans"
+   },
+   "lyrics": {
+      "message": "Lletres"
+   },
+   "needAuth": {
+      "message": "Per utilitzar AudD en aquest lloc web, cal que inicieu sessió"
+   },
+   "no": {
+      "message": "No"
+   },
+   "noAudioOnTab": {
+      "message": "No hi ha àudio a la pestanya actual"
+   },
+   "noLyrics": {
+      "message": "No s'ha pogut trobar cap lletra d'aquesta cançó"
+   },
+   "noMatchesText": {
+      "message": "Ho sentim, no hem pogut obtenir cap coincidència"
+   },
+   "notInvoked": {
+      "message": "L'extensió no s'ha invocat per a la pàgina actual. Les pàgines de Chrome no es poden capturar. Feu clic a una pestanya i reinicieu l'extensió."
+   },
+   "onlyPaidWorksHere": {
+      "message": "Ho sentim, només la versió de pagament funciona en aquest lloc web. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Obteniu el testimoni aquí\u003C/a> i enganxeu-lo a la configuració o considereu automatitzar el vostre treball amb la nostra \u003Ca href=\"https://audd.io\" target=\"_blank\">API\u003C/a>."
+   },
+   "playsAt": {
+      "message": "juga a"
+   },
+   "selectOneTab": {
+      "message": "Seleccioneu una pestanya"
+   },
+   "settings": {
+      "message": "Configuració"
+   },
+   "settingsSaved": {
+      "message": "S'ha desat correctament la configuració"
+   },
+   "signIn": {
+      "message": "Si us plau, \u003Ca url=\"chrome://chrome-signin/\" href=\"#\">inicieu la sessió amb el vostre compte de Google\u003C/a> a Google Chrome"
+   },
+   "trialEnded": {
+      "message": "El vostre judici ha finalitzat. En aquest lloc web només funciona la versió completa. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Subscriu-te\u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "torna-ho a provar"
+   },
+   "webstoreListingDescription": {
+      "message": "Instal·leu l'extensió AudD i feu clic a la seva icona per identificar la cançó que es reprodueix a la pestanya actual.\nMireu el vídeo de dalt per veure com funciona.\n\nExtensió AudD:\n- Reconeix la música que es reprodueix al vostre navegador;\n- Troba música a la base de dades AudD amb més de 75 milions de cançons utilitzant la seva tecnologia de reconeixement musical;\n- Mostra lletres de cançons identificades;\n- Mostra enllaços per escoltar les cançons a Apple Music, Spotify, Deezer, YouTube Music;\n- Mostra el moment exacte de la cançó reconeguda quan es reprodueix el so del navegador.\n\nAPI de reconeixement de música: https://audd.io\nCodi font: https://github.com/AudDMusic/chrome-extension\n\nExtensió impulsada per l'API de reconeixement de música AudD®\n\nCreat i dissenyat per l'equip d'AudD.io amb l'ajuda d'Eric Stark, Mitchell Kossoris i Ivan Kasatkin."
+   },
+   "yes": {
+      "message": "Sí"
+   }
+}

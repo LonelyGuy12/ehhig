@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "บันทึกไว้ในประวัติศาสตร์"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "รู้จักเพลงจากเว็บไซต์ใด ๆ ในเบราว์เซอร์ของคุณ"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "AudD® การรับรู้ดนตรี"
+   },
+   "clearHistoryInit": {
+      "message": "ยืนยันการดำเนินการในการแจ้งเตือน"
+   },
+   "confirm": {
+      "message": "ยืนยัน"
+   },
+   "confirmQuestion": {
+      "message": "การดำเนินการนี้ย้อนกลับไม่ได้ คุณแน่ใจหรือไม่ว่าต้องการล้างประวัติ"
+   },
+   "copiedSuccessfully": {
+      "message": "คัดลอก!"
+   },
+   "goTo": {
+      "message": "ไปที่"
+   },
+   "history": {
+      "message": "ประวัติศาสตร์"
+   },
+   "identifiedEarlierText": {
+      "message": "ระบุก่อนหน้านี้"
+   },
+   "lyrics": {
+      "message": "เนื้อเพลง"
+   },
+   "needAuth": {
+      "message": "หากต้องการใช้ AudD บนเว็บไซต์นี้ คุณต้องเข้าสู่ระบบ"
+   },
+   "no": {
+      "message": "ไม่"
+   },
+   "noAudioOnTab": {
+      "message": "ไม่มีเสียงในแท็บปัจจุบัน"
+   },
+   "noLyrics": {
+      "message": "ไม่พบเนื้อร้องสำหรับเพลงนี้"
+   },
+   "noMatchesText": {
+      "message": "ขออภัย ไม่พบรายการที่ตรงกัน"
+   },
+   "notInvoked": {
+      "message": "ส่วนขยายนี้ไม่ได้ถูกเรียกใช้สำหรับหน้าปัจจุบัน ไม่สามารถจับภาพหน้า Chrome ได้ คลิกที่แท็บและเปิดส่วนขยายอีกครั้ง"
+   },
+   "onlyPaidWorksHere": {
+      "message": "ขออภัย เฉพาะรุ่นที่ต้องชำระเงินเท่านั้นที่ใช้งานได้บนเว็บไซต์นี้ \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">รับโทเค็นที่นี่\u003C/a> และวางในการตั้งค่าหรือพิจารณาทำให้งานของคุณเป็นแบบอัตโนมัติด้วย \u003Ca href=\"https://audd.io\" target=\"_blank\">API\u003C/a> ของเรา"
+   },
+   "playsAt": {
+      "message": "เล่นที่"
+   },
+   "selectOneTab": {
+      "message": "โปรดเลือกหนึ่งแท็บ"
+   },
+   "settings": {
+      "message": "การตั้งค่า"
+   },
+   "settingsSaved": {
+      "message": "บันทึกการตั้งค่าเรียบร้อยแล้ว"
+   },
+   "signIn": {
+      "message": "กรุณา \u003Ca url=\"chrome://chrome-signin/\" href=\"#\">เข้าสู่ระบบด้วยบัญชี Google ของคุณ\u003C/a> ใน Google Chrome"
+   },
+   "trialEnded": {
+      "message": "ช่วงทดลองใช้ของคุณสิ้นสุดแล้ว เฉพาะเวอร์ชันเต็มเท่านั้นที่ใช้งานได้บนเว็บไซต์นี้ \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">สมัครสมาชิก\u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "ลองอีกครั้ง"
+   },
+   "webstoreListingDescription": {
+      "message": "ติดตั้งส่วนขยาย AudD และคลิกที่ไอคอนเพื่อระบุเพลงที่กำลังเล่นบนแท็บปัจจุบัน\nดูวิดีโอด้านบนเพื่อดูว่ามันทำงานอย่างไร\n\nส่วนขยาย AudD:\n- รู้จักเพลงที่เล่นในเบราว์เซอร์ของคุณ\n- ค้นหาเพลงในฐานข้อมูล AudD ที่มีมากกว่า 75 ล้านเพลงโดยใช้เทคโนโลยีการจดจำเพลง\n- แสดงเนื้อเพลงสำหรับเพลงที่ระบุ;\n- แสดงลิงก์เพื่อฟังเพลงบน Apple Music, Spotify, Deezer, YouTube Music;\n- แสดงช่วงเวลาที่แน่นอนในเพลงที่รู้จักเมื่อมีการเล่นเสียงจากเบราว์เซอร์\n\nAPI การจดจำเพลง: https://audd.io\nซอร์สโค้ด: https://github.com/AudDMusic/chrome-extension\n\nส่วนขยายขับเคลื่อนโดย AudD® Music Recognition API\n\nสร้างและออกแบบโดยทีม AudD.io ด้วยความช่วยเหลือจาก Eric Stark, Mitchell Kossoris และ Ivan Kasatkin"
+   },
+   "yes": {
+      "message": "ใช่"
+   }
+}

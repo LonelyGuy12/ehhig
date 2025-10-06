@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "Đã lưu vào Lịch sử"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Nhận ra bất kỳ bản nhạc nào từ bất kỳ trang web nào trong trình duyệt của bạn"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Nhận dạng âm nhạc AudD®"
+   },
+   "clearHistoryInit": {
+      "message": "Xác nhận hành động trong thông báo"
+   },
+   "confirm": {
+      "message": "Xác nhận"
+   },
+   "confirmQuestion": {
+      "message": "Hành động này là không thể thay đổi. Bạn có chắc chắn muốn xóa lịch sử không?"
+   },
+   "copiedSuccessfully": {
+      "message": "Đã sao chép!"
+   },
+   "goTo": {
+      "message": "Đi đến"
+   },
+   "history": {
+      "message": "Lịch sử"
+   },
+   "identifiedEarlierText": {
+      "message": "Đã xác định trước đó"
+   },
+   "lyrics": {
+      "message": "Lời bài hát"
+   },
+   "needAuth": {
+      "message": "Để sử dụng AudD trên trang web này, bạn cần đăng nhập"
+   },
+   "no": {
+      "message": "Không"
+   },
+   "noAudioOnTab": {
+      "message": "Không có âm thanh trên tab hiện tại"
+   },
+   "noLyrics": {
+      "message": "Không thể tìm thấy bất kỳ lời bài hát nào cho bài hát này"
+   },
+   "noMatchesText": {
+      "message": "Xin lỗi, chúng tôi không thể nhận được bất kỳ kết quả phù hợp nào"
+   },
+   "notInvoked": {
+      "message": "Phần mở rộng chưa được gọi cho trang hiện tại. Không thể chụp các trang Chrome. Nhấp vào một tab và khởi chạy lại tiện ích mở rộng."
+   },
+   "onlyPaidWorksHere": {
+      "message": "Xin lỗi, chỉ có phiên bản trả phí hoạt động trên trang web này. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\"> Nhận mã thông báo tại đây \u003C/a> và dán mã vào cài đặt hoặc xem xét tự động hóa công việc của bạn với API \u003Ca href=\"https://audd.io\" target=\"_blank\"> \u003C/a> của chúng tôi."
+   },
+   "playsAt": {
+      "message": "chơi ở"
+   },
+   "selectOneTab": {
+      "message": "Vui lòng chọn một tab"
+   },
+   "settings": {
+      "message": "Cài đặt"
+   },
+   "settingsSaved": {
+      "message": "Đã lưu thành công cài đặt"
+   },
+   "signIn": {
+      "message": "Vui lòng đăng nhập \u003Ca url=\"chrome://chrome-signin/\" href=\"#\"> bằng tài khoản Google của bạn \u003C/a> trong Google Chrome"
+   },
+   "trialEnded": {
+      "message": "Thời gian dùng thử của bạn đã kết thúc. Chỉ có phiên bản đầy đủ hoạt động trên trang web này. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\"> Đăng ký \u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "thử lại"
+   },
+   "webstoreListingDescription": {
+      "message": "Cài đặt tiện ích mở rộng AudD và nhấp vào biểu tượng của nó để xác định bài hát đang phát trên tab hiện tại.\nXem video ở trên để xem nó hoạt động như thế nào.\n\nPhần mở rộng AudD:\n- Nhận dạng nhạc đang phát trong trình duyệt của bạn;\n- Tìm nhạc trong cơ sở dữ liệu AudD với hơn 75 triệu bài hát bằng công nghệ nhận dạng âm nhạc của nó;\n- Hiển thị lời bài hát đã xác định;\n- Hiển thị liên kết để nghe các bài hát trên Apple Music, Spotify, Deezer, YouTube Music;\n- Hiển thị thời điểm chính xác trong bài hát được nhận dạng khi âm thanh từ trình duyệt được phát.\n\nAPI nhận dạng âm nhạc: https://audd.io\nMã nguồn: https://github.com/AudDMusic/chrome-extension\n\nTiện ích mở rộng được hỗ trợ bởi API nhận dạng âm nhạc AudD®\n\nĐược tạo và thiết kế bởi nhóm AudD.io với sự trợ giúp từ Eric Stark, Mitchell Kossoris và Ivan Kasatkin."
+   },
+   "yes": {
+      "message": "Đúng"
+   }
+}

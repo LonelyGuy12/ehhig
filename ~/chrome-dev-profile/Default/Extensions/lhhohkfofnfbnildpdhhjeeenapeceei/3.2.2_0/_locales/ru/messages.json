@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "Сохранено в историю распознаваний"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Распознавай любую музыку, играющую на любом сайте в браузере"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "AudD® - Распознавание музыки"
+   },
+   "clearHistoryInit": {
+      "message": "Подтвердите очистку истории в уведомлениях"
+   },
+   "confirm": {
+      "message": "Подтверждение"
+   },
+   "confirmQuestion": {
+      "message": "Это действие необратимо. Вы уверены, что хотите очистить историю?"
+   },
+   "copiedSuccessfully": {
+      "message": "Скопировано!"
+   },
+   "countryCode": {
+      "message": "ru"
+   },
+   "goTo": {
+      "message": "Перейти"
+   },
+   "history": {
+      "message": "История"
+   },
+   "identifiedEarlierText": {
+      "message": "Распознано ранее"
+   },
+   "lyrics": {
+      "message": "Слова"
+   },
+   "needAuth": {
+      "message": "Чтобы использовать AudD на этом сайте, авторизуйетесь"
+   },
+   "no": {
+      "message": "Нет"
+   },
+   "noAudioOnTab": {
+      "message": "На этой вкладке нет звука"
+   },
+   "noLyrics": {
+      "message": "Не могу найти текст слов этой песни"
+   },
+   "noMatchesText": {
+      "message": "Простите, не получилось распознать эту песню"
+   },
+   "notInvoked": {
+      "message": "Расширение не было запущено на текущей вкладке. Страницы Chrome не могут быть записаны. Кликните на вкладку и перезапустите расширение."
+   },
+   "onlyPaidWorksHere": {
+      "message": "Простите, на этом сайте работает только платная версия. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Получите токен тут\u003C/a> и вставьте в настройки или автоматизируйте свою работу с помощью нашего \u003Ca href=\"https://audd.io/\" target=\"_blank\">API\u003C/a>."
+   },
+   "playsAt": {
+      "message": "играет на"
+   },
+   "selectOneTab": {
+      "message": "Пожалуйста, выбери одну вкладку"
+   },
+   "settings": {
+      "message": "Настройки"
+   },
+   "settingsSaved": {
+      "message": "Настройки успешно сохранены"
+   },
+   "signIn": {
+      "message": "Пожалуйста, \u003Ca url=\"chrome://chrome-signin/\" href=\"#\">войдите с помощью Google\u003C/a> в Google Chrome"
+   },
+   "trialEnded": {
+      "message": "Ваш пробный период завершён. На этом сайте работает только полная версия. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Подписаться\u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "попробовать ещё раз"
+   },
+   "yes": {
+      "message": "Да"
+   }
+}

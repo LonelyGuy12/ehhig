@@ -1,0 +1,88 @@
+import { NULL } from '../../utils/constants.js';
+import { ValueDeserializer } from './value-deserializer.js';
+import { BaseDeserializer } from '../base-deserializer.js';
+import { ModifierNodeMarshallingMap, FREQUENT_REDIRECT_MODIFIERS_SERIALIZATION_MAP, FREQUENT_MODIFIERS_SERIALIZATION_MAP } from '../../marshalling-utils/misc/modifier-common.js';
+import { BinaryTypeMarshallingMap } from '../../marshalling-utils/misc/binary-type-common.js';
+
+/*
+ * AGTree v3.2.2 (build date: Tue, 08 Jul 2025 13:39:47 GMT)
+ * (c) 2025 Adguard Software Ltd.
+ * Released under the MIT license
+ * https://github.com/AdguardTeam/tsurlfilter/tree/master/packages/agtree#readme
+ */
+
+/* eslint-disable no-param-reassign */
+/**
+ * Value map for binary deserialization. This helps to reduce the size of the serialized data,
+ * as it allows us to use a single byte to represent frequently used values.
+ *
+ * @note Only 256 values can be represented this way.
+ */
+let frequentModifiersDeserializationMap;
+const getFrequentModifiersDeserializationMap = () => {
+    if (!frequentModifiersDeserializationMap) {
+        frequentModifiersDeserializationMap = new Map(Array.from(FREQUENT_MODIFIERS_SERIALIZATION_MAP).map(([key, value]) => [value, key]));
+    }
+    return frequentModifiersDeserializationMap;
+};
+/**
+ * Value map for binary deserialization. This helps to reduce the size of the serialized data,
+ * as it allows us to use a single byte to represent frequently used values.
+ */
+let frequentValuesDeserializationMaps;
+const getFrequentValuesDeserializationMaps = () => {
+    if (!frequentValuesDeserializationMaps) {
+        frequentValuesDeserializationMaps = new Map(Array.from(FREQUENT_REDIRECT_MODIFIERS_SERIALIZATION_MAP, ([modifier, valueMap]) => [modifier, new Map(Array.from(valueMap, ([key, value]) => [value, key]))]));
+    }
+    return frequentValuesDeserializationMaps;
+};
+/**
+ * `ModifierDeserializer` is responsible for deserializing modifiers.
+ *
+ * @example
+ * `match-case`, `~third-party`, `domain=example.com|~example.org`
+ */
+class ModifierDeserializer extends BaseDeserializer {
+    /**
+     * Deserializes a modifier node from binary format.
+     *
+     * @param buffer ByteBuffer for reading binary data.
+     * @param node Destination node.
+     */
+    static deserialize(buffer, node) {
+        buffer.assertUint8(BinaryTypeMarshallingMap.ModifierNode);
+        node.type = 'Modifier';
+        let prop = buffer.readUint8();
+        while (prop !== NULL) {
+            switch (prop) {
+                case ModifierNodeMarshallingMap.Name:
+                    // eslint-disable-next-line max-len
+                    ValueDeserializer.deserialize(buffer, node.name = {}, getFrequentModifiersDeserializationMap());
+                    break;
+                case ModifierNodeMarshallingMap.Value:
+                    if (node.name) {
+                        // eslint-disable-next-line max-len
+                        ValueDeserializer.deserialize(buffer, node.value = {}, getFrequentValuesDeserializationMaps().get(node.name.value));
+                    }
+                    else {
+                        ValueDeserializer.deserialize(buffer, node.value = {});
+                    }
+                    break;
+                case ModifierNodeMarshallingMap.Exception:
+                    node.exception = buffer.readUint8() === 1;
+                    break;
+                case ModifierNodeMarshallingMap.Start:
+                    node.start = buffer.readUint32();
+                    break;
+                case ModifierNodeMarshallingMap.End:
+                    node.end = buffer.readUint32();
+                    break;
+                default:
+                    throw new Error(`Invalid property: ${prop}.`);
+            }
+            prop = buffer.readUint8();
+        }
+    }
+}
+
+export { ModifierDeserializer };

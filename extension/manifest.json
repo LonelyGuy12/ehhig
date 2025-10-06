@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Quiz Automator Extension",
+  "version": "1.0",
+  "description": "Automatically extracts quiz questions on Newton School pages, sends to FastAPI server for processing with Llama 3, fills answers, and navigates to next question until done.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://my.newtonschool.co/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "చరిత్రలో సేవ్ చేయబడింది"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "మీ బ్రౌజర్‌లోని ఏదైనా వెబ్‌సైట్ నుండి ఏదైనా సంగీతాన్ని గుర్తించండి"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "AudD® సంగీత గుర్తింపు"
+   },
+   "clearHistoryInit": {
+      "message": "నోటిఫికేషన్‌లలో చర్యను నిర్ధారించండి"
+   },
+   "confirm": {
+      "message": "నిర్ధారించండి"
+   },
+   "confirmQuestion": {
+      "message": "ఈ చర్య తిరుగులేనిది. మీరు ఖచ్చితంగా చరిత్రను క్లియర్ చేయాలనుకుంటున్నారా?"
+   },
+   "copiedSuccessfully": {
+      "message": "కాపీ చేయబడింది!"
+   },
+   "goTo": {
+      "message": "వెళ్ళండి"
+   },
+   "history": {
+      "message": "చరిత్ర"
+   },
+   "identifiedEarlierText": {
+      "message": "ముందుగా గుర్తించారు"
+   },
+   "lyrics": {
+      "message": "సాహిత్యం"
+   },
+   "needAuth": {
+      "message": "ఈ వెబ్‌సైట్‌లో AudDని ఉపయోగించడానికి, మీరు లాగిన్ చేయాలి"
+   },
+   "no": {
+      "message": "నం"
+   },
+   "noAudioOnTab": {
+      "message": "ప్రస్తుత ట్యాబ్‌లో ఆడియో లేదు"
+   },
+   "noLyrics": {
+      "message": "ఈ పాటకు సాహిత్యం ఏదీ కనుగొనబడలేదు"
+   },
+   "noMatchesText": {
+      "message": "క్షమించండి, మేము ఏ మ్యాచ్‌లను పొందలేకపోయాము"
+   },
+   "notInvoked": {
+      "message": "ప్రస్తుత పేజీ కోసం పొడిగింపు అమలు చేయబడలేదు. Chrome పేజీలను క్యాప్చర్ చేయడం సాధ్యం కాదు. ట్యాబ్‌పై క్లిక్ చేసి, పొడిగింపును మళ్లీ ప్రారంభించండి."
+   },
+   "onlyPaidWorksHere": {
+      "message": "క్షమించండి, ఈ వెబ్‌సైట్‌లో చెల్లింపు సంస్కరణ మాత్రమే పని చేస్తుంది. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">ఇక్కడ టోకెన్ పొందండి\u003C/a> మరియు సెట్టింగ్‌లలో అతికించండి లేదా మా \u003Ca href=\"https://audd.io\" target=\"_blank\">API\u003C/a>తో మీ పనిని ఆటోమేట్ చేయడాన్ని పరిగణించండి."
+   },
+   "playsAt": {
+      "message": "వద్ద ఆడుతుంది"
+   },
+   "selectOneTab": {
+      "message": "దయచేసి ఒక ట్యాబ్‌ని ఎంచుకోండి"
+   },
+   "settings": {
+      "message": "సెట్టింగ్‌లు"
+   },
+   "settingsSaved": {
+      "message": "సెట్టింగ్‌లు విజయవంతంగా సేవ్ చేయబడ్డాయి"
+   },
+   "signIn": {
+      "message": "దయచేసి, Google Chromeలో \u003Ca url=\"chrome://chrome-signin/\" href=\"#\">మీ Google ఖాతాతో\u003C/a> లాగిన్ చేయండి"
+   },
+   "trialEnded": {
+      "message": "మీ ట్రయల్ ముగిసింది. ఈ వెబ్‌సైట్‌లో పూర్తి వెర్షన్ మాత్రమే పని చేస్తుంది. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">సభ్యత్వం\u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "మళ్ళీ ప్రయత్నించండి"
+   },
+   "webstoreListingDescription": {
+      "message": "ప్రస్తుత ట్యాబ్‌లో ప్లే అవుతున్న పాటను గుర్తించడానికి AudD పొడిగింపును ఇన్‌స్టాల్ చేసి, దాని చిహ్నంపై క్లిక్ చేయండి.\nఇది ఎలా పని చేస్తుందో చూడటానికి పై వీడియోను చూడండి.\n\nAudD పొడిగింపు:\n- మీ బ్రౌజర్‌లో ప్లే అవుతున్న సంగీతాన్ని గుర్తిస్తుంది;\n- సంగీత గుర్తింపు సాంకేతికతను ఉపయోగించి 75 మిలియన్ కంటే ఎక్కువ పాటలతో AudD డేటాబేస్‌లో సంగీతాన్ని కనుగొంటుంది;\n- గుర్తించబడిన పాటల కోసం సాహిత్యాన్ని చూపుతుంది;\n- Apple Music, Spotify, Deezer, YouTube Musicలో పాటలను వినడానికి లింక్‌లను చూపుతుంది;\n- బ్రౌజర్ నుండి ధ్వని ప్లే చేయబడినప్పుడు గుర్తించబడిన పాటలో ఖచ్చితమైన క్షణాన్ని ప్రదర్శిస్తుంది.\n\nసంగీత గుర్తింపు API: https://audd.io\nసోర్స్ కోడ్: https://github.com/AudDMusic/chrome-extension\n\nపొడిగింపు AudD® సంగీత గుర్తింపు API ద్వారా ఆధారితం\n\nఎరిక్ స్టార్క్, మిచెల్ కోసోరిస్ మరియు ఇవాన్ కసట్కిన్ సహాయంతో AudD.io బృందం రూపొందించింది మరియు రూపొందించబడింది."
+   },
+   "yes": {
+      "message": "అవును"
+   }
+}

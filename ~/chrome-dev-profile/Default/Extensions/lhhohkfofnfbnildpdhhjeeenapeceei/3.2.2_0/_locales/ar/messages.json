@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "تم الحفظ في التاريخ"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "تعرف على أي موسيقى من أي موقع ويب في متصفحك"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "AudD® التعرف على الموسيقى"
+   },
+   "clearHistoryInit": {
+      "message": "قم بتأكيد الإجراء في الإخطارات"
+   },
+   "confirm": {
+      "message": "يتأكد"
+   },
+   "confirmQuestion": {
+      "message": "هذا العمل لا رجوع فيه. هل أنت متأكد أنك تريد مسح السجل؟"
+   },
+   "copiedSuccessfully": {
+      "message": "نسخ!"
+   },
+   "goTo": {
+      "message": "اذهب إلى"
+   },
+   "history": {
+      "message": "تاريخ"
+   },
+   "identifiedEarlierText": {
+      "message": "حددت في وقت سابق"
+   },
+   "lyrics": {
+      "message": "كلمات الاغنية"
+   },
+   "needAuth": {
+      "message": "لاستخدام AudD على هذا الموقع ، تحتاج إلى تسجيل الدخول"
+   },
+   "no": {
+      "message": "رقم"
+   },
+   "noAudioOnTab": {
+      "message": "لا يوجد صوت في علامة التبويب الحالية"
+   },
+   "noLyrics": {
+      "message": "تعذر العثور على أي كلمات لهذه الأغنية"
+   },
+   "noMatchesText": {
+      "message": "معذرةً ، لم نتمكن من الحصول على أي مطابقات"
+   },
+   "notInvoked": {
+      "message": "لم يتم استدعاء الامتداد للصفحة الحالية. لا يمكن التقاط صفحات Chrome. انقر فوق علامة تبويب وأعد تشغيل الامتداد."
+   },
+   "onlyPaidWorksHere": {
+      "message": "عذرا ، النسخة المدفوعة فقط تعمل على هذا الموقع. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\"> احصل على رمز هنا \u003C/a> ولصقه في الإعدادات أو ضع في اعتبارك أتمتة عملك باستخدام \u003Ca href=\"https://audd.io\" target=\"_blank\"> API \u003C/a>."
+   },
+   "playsAt": {
+      "message": "يلعب في"
+   },
+   "selectOneTab": {
+      "message": "الرجاء تحديد علامة تبويب واحدة"
+   },
+   "settings": {
+      "message": "إعدادات"
+   },
+   "settingsSaved": {
+      "message": "تم حفظ الإعدادات بنجاح"
+   },
+   "signIn": {
+      "message": "الرجاء \u003Ca url=\"chrome://chrome-signin/\" href=\"#\"> تسجيل الدخول باستخدام حساب Google الخاص بك \u003C/a> في Google Chrome"
+   },
+   "trialEnded": {
+      "message": "انتهت الفترة التجريبية الخاصة بك. فقط النسخة الكاملة تعمل على هذا الموقع. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\"> اشتراك \u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "حاول مرة أخرى"
+   },
+   "webstoreListingDescription": {
+      "message": "قم بتثبيت ملحق AudD وانقر فوق الرمز الخاص به لتحديد الأغنية التي يتم تشغيلها في علامة التبويب الحالية.\nشاهد الفيديو أعلاه لترى كيف يعمل.\n\nتمديد AudD:\n- يتعرف على الموسيقى التي يتم تشغيلها في متصفحك ؛\n- يعثر على الموسيقى في قاعدة بيانات AudD مع أكثر من 75 مليون أغنية باستخدام تقنية التعرف على الموسيقى ؛\n- يظهر كلمات الأغاني المحددة.\n- يعرض روابط للاستماع إلى الأغاني على Apple Music و Spotify و Deezer و YouTube Music ؛\n- يعرض اللحظة الدقيقة في الأغنية التي تم التعرف عليها عند تشغيل الصوت من المتصفح.\n\nواجهة برمجة تطبيقات التعرف على الموسيقى: https://audd.io\nكود المصدر: https://github.com/AudDMusic/chrome-extension\n\nتمديد مدعوم من AudD® Music Recognition API\n\nتم إنشاؤه وتصميمه بواسطة فريق AudD.io بمساعدة Eric Stark و Mitchell Kossoris و Ivan Kasatkin."
+   },
+   "yes": {
+      "message": "نعم"
+   }
+}

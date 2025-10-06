@@ -1,0 +1,85 @@
+{
+   "SavedToHistory": {
+      "message": "Tallennettu historiaan"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Tunnista minkä tahansa musiikin miltä tahansa selaimesi verkkosivustolta"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "AudD®-musiikintunnistus"
+   },
+   "clearHistoryInit": {
+      "message": "Vahvista toiminto ilmoituksissa"
+   },
+   "confirm": {
+      "message": "Vahvistaa"
+   },
+   "confirmQuestion": {
+      "message": "Tämä toimenpide on peruuttamaton. Haluatko varmasti tyhjentää historian?"
+   },
+   "copiedSuccessfully": {
+      "message": "Kopioitu!"
+   },
+   "goTo": {
+      "message": "Mene"
+   },
+   "history": {
+      "message": "Historia"
+   },
+   "identifiedEarlierText": {
+      "message": "Aiemmin tunnistettu"
+   },
+   "lyrics": {
+      "message": "Sanoitukset"
+   },
+   "needAuth": {
+      "message": "Jotta voit käyttää AudD:tä tällä sivustolla, sinun on kirjauduttava sisään"
+   },
+   "no": {
+      "message": "Ei"
+   },
+   "noAudioOnTab": {
+      "message": "Ei ääntä nykyisellä välilehdellä"
+   },
+   "noLyrics": {
+      "message": "Tälle kappaleelle ei löytynyt sanoja"
+   },
+   "noMatchesText": {
+      "message": "Valitettavasti emme löytäneet yhtään ottelua"
+   },
+   "notInvoked": {
+      "message": "Laajennusta ei ole kutsuttu nykyiselle sivulle. Chrome-sivuja ei voi kaapata. Napsauta välilehteä ja käynnistä laajennus uudelleen."
+   },
+   "onlyPaidWorksHere": {
+      "message": "Valitettavasti vain maksullinen versio toimii tällä sivustolla. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Hanki tunnus tästä\u003C/a> ja ohita se asetuksissa tai harkitse työsi automatisointia \u003Ca href=\"https://audd.io\" target=\"_blank\">API:n\u003C/a> avulla."
+   },
+   "playsAt": {
+      "message": "soittaa klo"
+   },
+   "selectOneTab": {
+      "message": "Valitse yksi välilehti"
+   },
+   "settings": {
+      "message": "asetukset"
+   },
+   "settingsSaved": {
+      "message": "Asetusten tallennus onnistui"
+   },
+   "signIn": {
+      "message": "Ole hyvä ja \u003Ca url=\"chrome://chrome-signin/\" href=\"#\">kirjaudu sisään Google-tililläsi\u003C/a> Google Chromessa"
+   },
+   "trialEnded": {
+      "message": "Kokeilujaksosi on päättynyt. Vain täysi versio toimii tällä sivustolla. \u003Ca href=\"https://dashboard.audd.io\" target=\"_blank\">Tilaa\u003C/a>"
+   },
+   "tryAgainText": {
+      "message": "yritä uudelleen"
+   },
+   "webstoreListingDescription": {
+      "message": "Asenna AudD-laajennus ja napsauta sen kuvaketta tunnistaaksesi nykyisellä välilehdellä toistettava kappale.\nKatso yllä oleva video nähdäksesi, kuinka se toimii.\n\nAudD-laajennus:\n- Tunnistaa selaimessasi soivan musiikin;\n- Löytää musiikkia AudD-tietokannasta, jossa on yli 75 miljoonaa kappaletta musiikintunnistusteknologiansa avulla;\n- Näyttää sanoitukset tunnistetuille kappaleille;\n- Näyttää linkkejä Apple Musicin, Spotifyn, Deezerin, YouTube Musicin kappaleiden kuuntelemiseksi;\n- Näyttää tarkan hetken tunnistetussa kappaleessa, kun selaimen ääntä toistetaan.\n\nMusic Recognition API: https://audd.io\nLähdekoodi: https://github.com/AudDMusic/chrome-extension\n\nLaajennus toimii AudD® Musicin tunnistussovellusliittymällä\n\nLuonut ja suunnitellut AudD.io-tiimi Eric Starkin, Mitchell Kossorisin ja Ivan Kasatkinin avustuksella."
+   },
+   "yes": {
+      "message": "Joo"
+   }
+}
