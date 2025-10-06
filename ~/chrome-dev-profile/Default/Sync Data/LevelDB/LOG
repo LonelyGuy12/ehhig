@@ -1,9 +1,0 @@
-2025/10/06-18:09:32.083 44a77 Reusing MANIFEST /Users/lonely/automator/~/chrome-dev-profile/Default/Sync Data/LevelDB/MANIFEST-000001
-2025/10/06-18:09:32.083 44a77 Recovering log #3
-2025/10/06-18:09:32.083 44a77 Reusing old log /Users/lonely/automator/~/chrome-dev-profile/Default/Sync Data/LevelDB/000003.log 
-2025/10/06-18:16:20.728 44a87 Level-0 table #5: started
-2025/10/06-18:16:20.730 44a87 Level-0 table #5: 139589 bytes OK
-2025/10/06-18:16:20.732 44a87 Delete type=0 #3
-2025/10/06-18:16:44.891 44a77 Level-0 table #7: started
-2025/10/06-18:16:44.894 44a77 Level-0 table #7: 137477 bytes OK
-2025/10/06-18:16:44.897 44a77 Delete type=0 #4

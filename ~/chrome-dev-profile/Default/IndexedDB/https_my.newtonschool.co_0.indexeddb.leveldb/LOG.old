@@ -1,6 +1,0 @@
-2025/10/06-18:16:27.844 44a77 Creating DB /Users/lonely/automator/~/chrome-dev-profile/Default/IndexedDB/https_my.newtonschool.co_0.indexeddb.leveldb since it was missing.
-2025/10/06-18:16:27.846 44a77 Reusing MANIFEST /Users/lonely/automator/~/chrome-dev-profile/Default/IndexedDB/https_my.newtonschool.co_0.indexeddb.leveldb/MANIFEST-000001
-2025/10/06-18:16:27.850 44a77 Level-0 table #5: started
-2025/10/06-18:16:27.851 44a77 Level-0 table #5: 772 bytes OK
-2025/10/06-18:16:27.851 44a77 Delete type=0 #3
-2025/10/06-18:16:27.852 44a77 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
