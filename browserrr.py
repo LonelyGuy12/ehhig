@@ -80,56 +80,64 @@ def extract_quiz_data(soup):
     
     return data
 
-def clean_llm_response(response_text):
-    """Extract clean answer from LLM response, removing think tags and explanations"""
+def clean_llm_response(response_text: str) -> str:
+    """Extract clean single-line answer from LLM output."""
     print(f"Raw response to clean: '{response_text}'")
-    
-    # CRITICAL: Remove <think> tags and their content (most aggressive approach)
-    # This regex handles multiline content inside think tags
-    cleaned = re.sub(r'<think>.*?</think>', '', response_text, flags=re.DOTALL | re.IGNORECASE)
-    
-    # Also handle if there's just opening tag without closing
-    cleaned = re.sub(r'<think>.*', '', cleaned, flags=re.DOTALL | re.IGNORECASE)
-    
-    # Remove any remaining XML-like tags
-    cleaned = re.sub(r'<[^>]+>', '', cleaned)
-    
-    # Remove common explanation phrases at the start
-    cleaned = re.sub(r'^(The answer is|Therefore|Thus|So|Hence|Output|Answer|Final answer|Result):\s*', '', cleaned, flags=re.IGNORECASE | re.MULTILINE)
-    
-    # Remove markdown code blocks
-    cleaned = re.sub(r'```[\s\S]*?```', '', cleaned)
-    
-    # Remove quotes if answer is quoted
-    cleaned = cleaned.strip('"\'')
-    
-    # Remove extra whitespace and newlines
-    cleaned = cleaned.strip()
-    
-    # If there are multiple lines, extract just the answer part
-    lines = [line.strip() for line in cleaned.split('\n') if line.strip() and not line.startswith('#')]
-    
-    if not lines:
-        print("WARNING: No lines after cleaning!")
+
+    if not response_text or not response_text.strip():
+        print("WARNING: Empty raw LLM output!")
         return ""
-    
-    # Strategy: The answer is usually:
-    # 1. A single number/word
-    # 2. The shortest line
-    # 3. The last line (after thinking)
-    
-    # Find lines that look like simple answers (short, alphanumeric)
-    simple_answers = [l for l in lines if len(l) <= 50 and not any(word in l.lower() for word in ['the', 'is', 'are', 'because', 'since', 'therefore'])]
-    
-    if simple_answers:
-        # Return the shortest simple answer
-        final_answer = min(simple_answers, key=len)
+
+    # Step 1: Remove <think> tags and everything inside them
+    cleaned = re.sub(r'<think>.*?</think>', '', response_text, flags=re.DOTALL | re.IGNORECASE)
+    cleaned = re.sub(r'<think>.*', '', cleaned, flags=re.DOTALL | re.IGNORECASE)
+
+    # Step 2: Remove any other XML/HTML tags
+    cleaned = re.sub(r'<[^>]+>', '', cleaned)
+
+    # Step 3: Remove markdown fences (```...```)
+    cleaned = re.sub(r'```[\s\S]*?```', '', cleaned)
+
+    # Step 4: Remove obvious explanation prefixes
+    cleaned = re.sub(
+        r'^\s*(Output|Answer|Final answer|Result|Therefore|Thus|Hence|The answer is)[:\-\s]*',
+        '',
+        cleaned,
+        flags=re.IGNORECASE | re.MULTILINE
+    )
+
+    # Step 5: Trim quotes and whitespace
+    cleaned = cleaned.strip().strip('"\'‘’“”')
+
+    # Step 6: Split into lines and filter out junk
+    lines = [line.strip() for line in cleaned.splitlines() if line.strip() and not line.startswith('#')]
+
+    # Step 7: If nothing left, fallback regex
+    if not lines:
+        print("WARNING: No lines after cleaning! Trying relaxed extraction...")
+        relaxed_match = re.search(r'([A-Za-z0-9\+\-\*/\=\(\)\[\]\{\}\.,:;<>]+)', cleaned)
+        if relaxed_match:
+            final_answer = relaxed_match.group(1).strip()
+            print(f"Recovered relaxed answer: '{final_answer}'")
+            return final_answer
+        return ""
+
+    # Step 8: Prefer single short answers (<=50 chars)
+    possible_answers = [l for l in lines if len(l) <= 50]
+
+    # Step 9: If multiple, take the last or the shortest one (last usually best)
+    if possible_answers:
+        final_answer = possible_answers[-1].strip()
     else:
-        # Fallback: return the last line
-        final_answer = lines[-1]
-    
+        final_answer = lines[-1].strip()
+
+    # Step 10: Final cleanup
+    final_answer = re.sub(r'[\u200b\s]+$', '', final_answer)  # remove hidden spaces
+    final_answer = final_answer.replace('\n', ' ').strip()
+
     print(f"Final cleaned answer: '{final_answer}'")
     return final_answer
+
 
 def create_adaptive_instructions(quiz_data, llm_answer):
     """Create instructions that work regardless of HTML structure"""
